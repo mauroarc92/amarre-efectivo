@@ -1,0 +1,105 @@
+*{
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #e0e0e0;
+}
+
+header{
+  background-image: url(https://res.cloudinary.com/dzpzdgxyn/image/upload/v1629345148/web/banner_ql5px3.png);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+  
+}
+
+.textos{
+  width: 50%;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 150px;
+  
+
+}
+
+.textos h1 {
+  font-size: 40px;
+  
+}
+.textos h2 {
+ font-size: 18px;
+}
+
+
+
+.service_title {
+  font-size:25px ;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.card{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+  background: rgb(240, 238, 238);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  
+}
+
+.card_content{
+  padding: 20px;
+}
+
+.card_img{
+  width: 100%;
+  height: auto; 
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+}
+
+.footer{
+  background-color: rgba(39, 39, 39, 0.897);
+  color: #fff;
+  padding: 14px;
+  font-size: 15px;
+  margin-top: 100px;
+}
+.footer p {
+  text-align: center;
+}
+
+.nosotros{
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 14px;
+  font-size: 15vm;
+  
+}
+
+.nosotros__title{
+  display: block;
+}
+
+.btn-whatsapp {
+  display:block;
+  width:70px;
+  height:70px;
+  color:#fff;
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
+}
