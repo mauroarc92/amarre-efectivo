@@ -5,10 +5,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     column-gap: 10px;
-    row-gap: 15px;
+    
     
   }
-
   .card{
   
     height: 450px;
@@ -17,7 +16,7 @@
 
   .nosotros{
     padding: 6px;
-    font-size: 2vw;
+    font-size: 1.4vw;
     
   
     
