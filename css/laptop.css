@@ -21,3 +21,11 @@
   
     
   }
+
+  .ritual_info{
+    width: 60%;
+    margin: auto;
+    padding: 80px;
+    line-height: 30px;
+    
+  }
